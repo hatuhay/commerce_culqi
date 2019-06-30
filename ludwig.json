@@ -1,0 +1,8 @@
+{
+    "require": {
+        "culqi/culqi-php": {
+            "version" : "master",
+            "url": "https://github.com/culqi/culqi-php/archive/master.zip"
+        }
+    }
+}

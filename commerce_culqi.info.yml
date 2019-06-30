@@ -1,0 +1,10 @@
+name: Commerce Culqi
+type: module
+description: 'Provides Commerce integration for Culqi Payments.'
+package: Commerce
+# core: 8.x
+dependencies:
+  - commerce:commerce_payment
+
+core: '8.x'
+project: 'commerce_culqi'

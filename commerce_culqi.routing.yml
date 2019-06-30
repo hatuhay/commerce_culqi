@@ -1,0 +1,10 @@
+commerce_culqi.redirect_post:
+  path: 'commerce_culqi/redirect_post/{order}'
+  defaults:
+    _controller: '\Drupal\commerce_culqi\Controller\CulqiRedirectController::post'
+  options:
+    parameters:
+      order:
+        type: entity:order
+  requirements:
+    _access: 'TRUE'
